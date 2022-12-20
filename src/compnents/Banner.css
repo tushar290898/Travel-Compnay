@@ -1,0 +1,123 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.banner > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-about{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+
+
+.banner-about > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-contact{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+
+
+.banner-contact > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-service{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+
+}
+
+
+.banner-service > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.banner-text{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.banner-text > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-text > p{
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width:700px){
+    .banner-text > h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        background-color: white;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .banner-text > p{
+        color: white;
+        padding: 10px 15px;
+        margin-bottom: 5px;
+        font-size: 1.5rem;
+    }
+
+    .banner-btn{
+    
+        text-decoration: none;
+        background-color: white;
+        padding: 12px 10px;
+        border-radius: 5px;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        width: 50em;
+    }
+    
+}
+
+.banner-btn{
+    
+    text-decoration: none;
+    background-color: white;
+    padding: 11px 16px;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.hide{
+    display: none;
+}
+

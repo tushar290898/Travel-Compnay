@@ -1,0 +1,59 @@
+.trips-section{
+    margin: 4rem 6rem;
+   
+}
+
+.trips-section > h1 {
+    font-size: 2rem;
+    padding-bottom: 0.8rem;
+}
+.trips{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    margin-top: 2rem;
+    width: 32%;
+    text-align: start;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 2px 12px 10px 0px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width:950px){
+    .trips-section{
+        margin: 4rem 2rem;
+       
+    }
+
+    .trips{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin-top: 2rem;
+        width: 100%;
+        text-align: start;
+        border-radius: 5px;
+        padding: 1rem;
+        box-shadow: 2px 12px 10px 0px rgba(0,0,0,0.3);
+    }
+}
+
+.card > img{
+    width: 100%;
+    /* height: 300px; */
+    object-fit: cover;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.card > img:hover{
+    transform: scale(0.9);
+}
+
+.text-section{
+    margin-top: 0.5rem;
+}

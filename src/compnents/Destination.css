@@ -1,0 +1,97 @@
+.destination{
+    margin: 4rem 6rem;
+
+}
+
+.destination > h1{
+    font-size: 3rem;
+}
+
+.destination-first{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+}
+
+.destination-second{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: start;
+    align-items: center;
+
+}
+
+.desti-text{
+    width: 45%;
+}
+.desti-text > h3{
+    font-size: 2rem;
+    padding-bottom: 1.2rem;
+}
+
+.desti-image{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.desti-image > img{
+    width: 49%;
+    height: 400px;
+    border-radius: 7px;
+    object-fit: cover;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+
+}
+.desti-image :nth-child(2){
+    position:absolute;
+    top:-6%;
+    right: 0px;
+}
+
+@media screen and  (max-width:850px){
+    .destination{
+        margin: 4rem 2rem;
+    
+    }
+
+    .destination-first{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: start;
+     
+    }
+
+    .destination-second{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: start;
+     
+    }
+
+    .desti-text{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .desti-image > img{
+        height: 300px;
+        
+    }
+    .desti-image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+
+    .destination > h1{
+        font-size: 2.3rem;
+        padding-bottom: 1rem;
+    }
+}
